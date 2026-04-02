@@ -1,0 +1,16 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=0.72.0",
+    "claude-agent-sdk>=0.1.53",
+    "fastapi>=0.124.4",
+    "pdfplumber>=0.11.5",
+    "python-dotenv>=1.0.1",
+    "python-multipart>=0.0.20",
+    "sqlmodel>=0.0.29",
+    "uvicorn>=0.33.0",
+]

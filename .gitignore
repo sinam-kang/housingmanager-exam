@@ -1,0 +1,36 @@
+# ─── 환경 설정 (API 키 보호) ────────────────────────────
+backend/.env
+
+# ─── DB 및 사용자 데이터 ────────────────────────────────
+data/db.sqlite
+data/exams/
+
+# ─── Python ─────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+backend/.venv/
+
+# ─── Node.js ────────────────────────────────────────────
+node_modules/
+frontend/node_modules/
+
+# ─── Next.js ────────────────────────────────────────────
+.next/
+frontend/.next/
+frontend/out/
+
+# ─── 프론트엔드 환경 변수 ────────────────────────────────
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# ─── 기타 ───────────────────────────────────────────────
+.DS_Store
+*.log
